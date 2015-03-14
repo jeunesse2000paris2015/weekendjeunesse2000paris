@@ -11,9 +11,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
 body {
-	margin:0;
+	margin:10;
 }
-p {
+p, li, ul, h1, h2 {
 	margin:0;
 	font-family: 'Architects Daughter', cursive;
 }
@@ -22,11 +22,50 @@ p {
 	min-width:200px;
 	margin:auto;
 	text-align:justify;
+	border-style: groove;
+    border-width: 5px;
+    border-color: #000099;
+}
+h1, h2, a {
+	color:#E01440;
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	margin-top:30px;
+	text-align:center;
+	font-size:2em;
+}
+h2 {
+	font-family: 'Lobster', cursive;
+	font-size:1.5em;
+	margin:0;
+	margin-top:18px;
+}
+#link {
+	text-align:center;
+	padding:0;
+	font-size:1.3em;
+}
+a {
+	text-decoration:none;
+	font-weight:bold;
+}
+p {
+	margin-top: 12px;
+}
+#text {
+	padding:25px;
+}
+#logo {
+	width:100%;
+	margin:auto;
+	margin-top:22px;
+	display:block;	
 }
 #fallback {
 	text-align:center;
-	text-decoration:none;
 	color:black;
+	font-weight:normal;
 }
 </style>
 </head>
@@ -34,9 +73,25 @@ p {
 <article>
 	<div id="container">
 		<!-- image -->
-		<img src="https://lut.im/UtTfvMjF/MI9DHD0F" alt="Cet email a été envoyé par l'équipe parisienne de Jeunesse 2000. Nous utilisons des images pour préserver la mise en forme en intégrer des polices. Si vous voyez ce texte, appuyez sur « afficher les images » ou cliquez sur le lien ci-dessous." id="logo" />
+		<img src="https://lut.im/MQpybAlX/aNAYtyZq" alt="Cet email a été envoyé par l'équipe parisienne de Jeunesse 2000. Nous utilisons des images pour préserver la mise en forme en intégrer des polices. Si vous voyez ce texte, appuyez sur « afficher les images » ou cliquez sur le lien ci-dessous." id="logo" />
+		<!-- heading -->
+		<h1>Week-end Jeunesse 2000 à Paris</h1>
+		<div id="text">
+		<!-- text -->	
+		<h2>Qui sommes-nous ?</h2>
+		<p>Jeunesse 2000 a été créé par Ernest Williams en 1989 après les JMJ de Compostelle. Ce jeune Anglais répondait ainsi à l'appel lancé par Jean Paul II pour la nouvelle évangélisation. Son but est de favoriser la rencontre personnelle des jeunes avec le Christ à travers l'Eucharistie. Le Saint-Sacrement, exposé du début à la fin, est le point central de ces week-ends.</p>
+		<p>Chaque week-end est organisé par une équipe locale. A l'initiative de Clothilde Chaintron, des jeunes Parisiens motivés se sont décidés à vous proposer un weekend de folie :-)</p>
+		<h2>Save the Date</h2>
+		<p>L'équipe de Jeunesse 2000 Paris organise un week-end pour les jeunes de 16 à 30 ans. Inscrivez-vous sur notre site</p><p id="link"><a href="http://goo.gl/FjV7gn">jeunesse2000.org</a></p><p>pour vivre 48 heures de louange et d'adoration avec Jésus du vendredi 10 avril au soir jusqu'à la messe de clôture du dimanche 12 à midi. Nous partagerons des témoignages et des enseignements autour de notre invité spécial le père Jean-Marie Petitclerc.</p>
+		<h2>Contact et renseignements</h2>
+		<ul>
+			<li>Gilles se fera un plaisir de répondre à vos questions au <a href="tel:+33659092927">06 59 09 29 27</a>.</li>
+			<li>Découvrez notre mouvement sur notre site <a href="http://goo.gl/FjV7gn">jeunesse2000.org</a>.</li>
+			<li>Vous connaissez des mécènes pour aider à soutenir financièrement notre week-end ? <i>Venez nous en parler !</i> Vos dons sont notre unique moyen de financement.</li>
+		</ul>
+		</div>
 	</div>
-	<p id="fallback"><a href="http://jeunesse2000paris2015.github.io/weekendjeunesse2000paris/" id="fallback">Cliquez ici pour  lire ce message avec votre navigateur.</a></p>
+	<p id="fallback"><a href="http://jeunesse2000paris2015.github.io/weekendjeunesse2000paris/" id="fallback">Si ce message ne s'affiche pas correctement, cliquez ici pour le lire avec votre navigateur.</a></p>
 </article>
 </body>
 </html>
